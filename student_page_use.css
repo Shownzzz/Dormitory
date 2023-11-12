@@ -1,0 +1,45 @@
+#pic1{
+    background-image: url("IMG_20221219_231105.jpg");
+    width:auto;
+    height:auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    opacity:0.85;
+}
+
+.text_color{
+    color: rgb(255, 255, 255);
+}
+
+li a{
+    font-size:17px;
+}
+
+li a:hover{
+    background-color:#005AB5 !important;
+}
+
+.change{
+    font-size:17px;
+}
+.change:hover{
+    background-color:#005AB5 !important;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > th,.table-striped > tbody > tr:nth-child(2n+1) > td{
+    background-color:#ECF5FF;
+}
+
+
+table {
+    table-layout: fixed; 
+    word-break: break-all;
+}
+
+.name {
+    max-width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
